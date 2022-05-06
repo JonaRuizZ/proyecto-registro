@@ -1,0 +1,9 @@
+@import "~ed-grid"; // Importamos todo lo que venga de la librería ed-grid
+@import "~edteam-style-guides/edteam-style-guides"; // Importamos todo lo que venga de la librería edteam styles guides
+
+.btn{
+    color: #FFF !important;
+}
+.main-menu li:not(:last-child){
+    padding-top: 10px;
+}
