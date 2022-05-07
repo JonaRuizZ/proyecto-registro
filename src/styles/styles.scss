@@ -3,7 +3,14 @@
 
 .btn{
     color: #FFF !important;
+    font-weight: 400;
 }
 .main-menu li:not(:last-child){
     padding-top: 10px;
+}
+.main-logo{
+    height: 3rem;
+}
+.main-banner__img{
+    opacity: 0.4;
 }

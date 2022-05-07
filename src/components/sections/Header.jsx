@@ -1,4 +1,5 @@
 import logo from "../../img/kyc.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return(
@@ -16,13 +17,19 @@ const Header = () => {
                     <nav className="main-menu" id="main-menu">
                         <ul>
                             <li>
-                                <a href="/">Inicio</a>
+                                <NavLink to="/">Inicio</NavLink>
                             </li>
                             <li>
-                                <a href="/registro">Registro</a>
+                                <NavLink to="/registro">Registro</NavLink>
                             </li>
                             <li>
-                                <a className="button btn" href="/login">Ingresar</a>
+                                <NavLink to="/galeria">Galería</NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/contactenos">Contáctenos</NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="button btn" to="/login">Iniciar sesión</NavLink>
                             </li>
                         </ul>
                     </nav>
