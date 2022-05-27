@@ -9,8 +9,8 @@ const MainBanner = () => {
                     <p>El condominio considera variadas áreas comunes donde destacan dos quinchos, juego para niños, dos salas multiuso, zona de ejercicios y un lounge, para que la gente joven pueda disfrutar de un momento agradable..</p>
                 {/*       <!-- Botones --> */}
                     <div className="s-main-center">
-                        <a className="button blue-500 s-mr-2 s-mb-2 m-mb-0">Áreas de servicios</a>
-                        <a className="button blue-500 s-mb-2 m-mb-0">Acerca de nosotros</a>
+                        <a className="button blue-500 s-mr-2 s-mb-2 m-mb-0" href="#">Áreas de servicios</a>
+                        <a className="button blue-500 s-mb-2 m-mb-0" href="#">Acerca de nosotros</a>
                     </div>
                 </div>
             {/*     <!-- Contenido de la columna 2 --> */}
