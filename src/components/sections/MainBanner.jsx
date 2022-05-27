@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const MainBanner = () => {
     return(
-        <section className="main-banner grey-600 l-section s-py-4">
+        <section className="main-banner grey-700 l-section s-py-4">
         {/*   <!-- Separación del contenido en columnas --> */}
             <div className="ed-grid lg-grid-2 row-gap s-gap-2 m-gap-4">
             {/*     <!-- Contenido de la columna 1 --> */}
@@ -9,8 +11,8 @@ const MainBanner = () => {
                     <p>El condominio considera variadas áreas comunes donde destacan dos quinchos, juego para niños, dos salas multiuso, zona de ejercicios y un lounge, para que la gente joven pueda disfrutar de un momento agradable..</p>
                 {/*       <!-- Botones --> */}
                     <div className="s-main-center">
-                        <a className="button blue-500 s-mr-2 s-mb-2 m-mb-0" href="#">Áreas de servicios</a>
-                        <a className="button blue-500 s-mb-2 m-mb-0" href="#">Acerca de nosotros</a>
+                        <Link className="button blue-500 s-mr-2 s-mb-2 m-mb-0" to="/galeria">Area de servicios</Link>
+                        <Link className="button blue-500 s-mr-2 s-mb-2 m-mb-0" to="/galeria">Acerca de nosotros</Link>
                     </div>
                 </div>
             {/*     <!-- Contenido de la columna 2 --> */}
