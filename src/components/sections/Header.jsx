@@ -2,6 +2,18 @@ import logo from "../../img/kyc.png";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+    const openMenu = () => {
+        let nav = document.getElementById('main-menu');
+        let toggle = document.getElementById('main-menu-toggle');
+      
+        if (!nav || !toggle) return;
+      
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('show');
+          toggle.classList.toggle('active');
+        });
+    };
+
     return(
         <header className="main-header">
             <div className="ed-grid s-grid-5 lg-grid-4"> {/* 5 columnas en S y 4 en L */}
@@ -35,7 +47,7 @@ const Header = () => {
                     </nav>
 
                 {/* Menú hamburguesa */}
-                <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>
+                <div className="main-menu-toggle to-l" id="main-menu-toggle" onClick={openMenu}></div>
                 </div>
             </div>
         </header>

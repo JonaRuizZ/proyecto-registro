@@ -13,7 +13,7 @@ const SubBanner = () => {
                 <div className="main-banner__data s-center">
                     <p className="s-mb-0 t2">El departamento de tus sueños</p>
                     <p>Hacemos el proyecto de tu vida.</p>
-                    <Link className="button first-color" to="/galeria">Galería de imágenes</Link>
+                    <Link className="button first-color" to="/departamentos">Ver departamentos</Link>
                 </div>
                 </div>
             </div>
